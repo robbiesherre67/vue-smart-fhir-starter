@@ -1,7 +1,7 @@
 {
     "resourceType": "Patient",
     "id": "example-patient",
-    "name": [{ "given": ["Alex"], "family": "Rivera" }],
+    "name": [{ "given": ["Alexa"], "family": "Rivera" }],
     "birthDate": "1984-09-15",
     "gender": "female"
   }
