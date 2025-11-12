@@ -1,10 +1,11 @@
 # Vue SMART on FHIR Starter
 
-A lightweight Vue 3 + Vite demo application showing how SMART on FHIR authentication and FHIR R4 resource access can be integrated into a modern single-page application.  
-Includes **Mock Mode** (local JSON), **Demo SMART Launch Mode** (visual simulated OAuth flow), and **real SMART OAuth** support for EHR launches.
+A lightweight Vue 3 + Vite demo application showing how SMART on FHIR authentication and 
+FHIR R4 resource access can be integrated into a modern single-page application.  
+Includes **Mock Mode** (local JSON), **Demo SMART Launch Mode** (visual simulated OAuth flow), 
+and **real SMART OAuth** support for EHR launches.
 
 ---
-
 Tech Stack
 
 | Layer | Technology |
@@ -17,3 +18,18 @@ Tech Stack
 | Deployment | GitHub Pages (via GitHub Actions) |
 
 ---
+Notes
+
+No PHI or sensitive data used.
+
+All datasets are safe, mock FHIR R4 bundles.
+
+Demo SMART mode is built for training & showcasing the launch flow.
+
+---
+Author
+
+Robbie Sherre
+Epic Application Analyst (MyChart) & Front-End Developer
+Burbank, CA (Remote/Hybrid)
+GitHub: https://github.com/robbiesherre67
