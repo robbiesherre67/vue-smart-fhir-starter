@@ -1,0 +1,52 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 2,
+    "entry": [
+      {
+        "resource": {
+          "resourceType": "MedicationRequest",
+          "id": "med-001",
+          "status": "active",
+          "intent": "order",
+          "authoredOn": "2024-11-01",
+          "medicationCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "code": "860975",
+                "display": "Atorvastatin 20 MG Oral Tablet"
+              }
+            ],
+            "text": "Atorvastatin 20mg Tablet"
+          },
+          "subject": {
+            "reference": "Patient/example-patient"
+          }
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "MedicationRequest",
+          "id": "med-002",
+          "status": "completed",
+          "intent": "order",
+          "authoredOn": "2024-09-10",
+          "medicationCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "code": "860963",
+                "display": "Lisinopril 10 MG Oral Tablet"
+              }
+            ],
+            "text": "Lisinopril 10mg Tablet"
+          },
+          "subject": {
+            "reference": "Patient/example-patient"
+          }
+        }
+      }
+    ]
+  }
+  

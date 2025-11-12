@@ -1,0 +1,19 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "entry": [
+      { "resource": {
+        "resourceType": "Observation",
+        "code": { "text": "Body temperature" },
+        "valueQuantity": { "value": 37.1, "unit": "°C" },
+        "effectiveDateTime": "2024-12-01T09:30:00Z"
+      }},
+      { "resource": {
+        "resourceType": "Observation",
+        "code": { "text": "Systolic blood pressure" },
+        "valueQuantity": { "value": 122, "unit": "mmHg" },
+        "effectiveDateTime": "2024-12-01T09:32:00Z"
+      }}
+    ]
+  }
+  
